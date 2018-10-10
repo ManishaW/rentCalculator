@@ -4,8 +4,7 @@ internet_bill = 53 #constant
 
 
 hydro = input("What is the hydro bill amount? ")
-hydro_internet_portion = (int(hydro) + internet_bill)
-print(hydro_internet_portion)
+hydro_internet_portion = (float(hydro) + internet_bill)
 
 joy_owe = float("{0:.2f}".format(0.3*rent_amount + (hydro_internet_portion/3)))
 jane_owe = float("{0:.2f}".format(0.4*rent_amount - (hydro_internet_portion/3)*2))
